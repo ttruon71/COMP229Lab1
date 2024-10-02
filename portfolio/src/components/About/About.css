@@ -1,0 +1,23 @@
+#about {
+    overflow:hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+
+.Self {
+    object-fit: cover;
+    height: 35rem;
+    width: 20rem;
+}
+
+.AboutPara{
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 100;
+}
