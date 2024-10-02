@@ -1,4 +1,11 @@
+/*
+Author: Thomas Truong
+File: NavigationBar.css
+Student ID: 301371386
+Date: Oct 1 2024
+*/
 .navbar {
+    background: rgb(30,30,30);
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -38,6 +45,7 @@
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .ContactImage {
@@ -45,4 +53,5 @@
     height: 2rem;
     width: 2rem;
     margin: 1rem;
+    cursor: pointer;
 }

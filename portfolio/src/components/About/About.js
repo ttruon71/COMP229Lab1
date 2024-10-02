@@ -1,3 +1,9 @@
+/*
+Author: Thomas Truong
+File: About.js
+Student ID: 301371386
+Date: Oct 1 2024
+*/
 import React from 'react';
 import './About.css';
 import Self from '../../Assets/Self.jpg'
