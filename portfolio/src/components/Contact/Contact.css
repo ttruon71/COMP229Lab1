@@ -1,0 +1,54 @@
+/*
+Author: Thomas Truong
+File: Contact.css
+Student ID: 301371386
+Date: Oct 1 2024
+*/
+
+#contact {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactInfo {
+    padding: 1rem;
+    font-size:medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.contactName, .contactEmail, .contactMessage {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40)
+}
+
+.submitButton {
+    background: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
