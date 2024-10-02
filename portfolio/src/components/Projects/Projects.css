@@ -1,0 +1,41 @@
+/*
+Author: Thomas Truong
+File: Projects.css
+Student ID: 301371386
+Date: Oct 1 2024
+*/
+
+#projects {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.header {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.projectImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.projectImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.projectContainer {
+    text-align: center;
+}
